@@ -1,0 +1,13 @@
+.art-display {
+  text-align: center; /* Center the image */
+  margin: 20px; /* Add some margin around the art display */
+  max-height: 50vh; /* Set the maximum height to 50% of the viewport height */
+  overflow: hidden; /* Hide any overflow */
+}
+
+.art-image {
+  max-width: 80%; /* Limit the width to 80% of the container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: add some rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: add some shadow */
+}
